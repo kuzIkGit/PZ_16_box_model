@@ -8,14 +8,14 @@
   </head>
   <body>
     <main class="cards">
-      <article class="card">
+      <article class="card" tabindex="0">
         <div class="card__image">01</div>
         <div class="card__content">
           <h2>Старая типография</h2>
           <p>Длинное описание места. Увеличьте текст во время проверки.</p>
         </div>
       </article>
-      <article class="card">
+      <article class="card" tabindex="0">
         <div class="card__image">02</div>
         <div class="card__content">
           <h2>Дом с керамикой</h2>
@@ -23,5 +23,26 @@
         </div>
       </article>
     </main>
+
+    <section class="scroll">
+      <div class="scroll__item">Блок 1</div>
+      <div class="scroll__item">Блок 2</div>
+      <div class="scroll__item">Блок 3</div>
+      <div class="scroll__item">Блок 4</div>
+      <div class="scroll__item">Блок 5</div>
+      <div class="scroll__item">Блок 6</div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">Схлопывание margin</h2>
+      <p>Отступ заголовка остаётся внутри секции, потому что у секции задан display: grid.</p>
+    </section>
+
+    <section class="media-block">
+      <div class="media">
+        <div class="media__inner">16:9</div>
+      </div>
+    </section>
   </body>
 </html>
+
